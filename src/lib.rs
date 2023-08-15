@@ -1,11 +1,11 @@
 extern crate winapi_typedefs;
 
 use std::os::raw::*;
-use winapi_typedefs::winuser::*;
-use winapi_typedefs::windef::*;
-use winapi_typedefs::intsafe::*;
-use winapi_typedefs::winnt::*;
-use winapi_typedefs::basetsd::*;
+use winapi_typedefs::winuser::cdef::*;
+use winapi_typedefs::windef::cdef::*;
+use winapi_typedefs::intsafe::cdef::*;
+use winapi_typedefs::winnt::cdef::*;
+use winapi_typedefs::basetsd::cdef::*;
 
 // Import declarations
 #[allow(non_snake_case)]
